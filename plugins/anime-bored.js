@@ -14,7 +14,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 
     let str = m.mentionedJid.length > 0 || m.quoted 
         ? `💙 \`${name2}\` está sintiendo aburrimiento virtual por \`${name || who}\` en el concierto 😑` 
-        : `💙 \`${name2}\` necesita más emoción en el mundo virtual de Miku 😑`
+        : `💙 \`${name2}\` necesita más emoción en el mundo virtual de Dey 😑`
     
     if (m.isGroup) {
         let pp = 'https://files.catbox.moe/2n03w7.mp4'
