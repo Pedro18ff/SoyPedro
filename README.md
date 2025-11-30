@@ -1,9 +1,9 @@
-# `❄️ Itsuki Nakano - IA V3 ✨️`
+# `❄️ Dey - IA V3 ✨️`
 
 <div align="center">
 
 <p align="center"> 
-<a href="https://github.com/leoxito"><img src="https://readme-typing-svg.herokuapp.com?font=Boldonse&size=15&duration=3000&pause=1000&color=FF69B4&center=true&width=435&lines=Bienvenido+al+repositorio+actualizado;🌸+Itsuki+Nakano+IA+V3;✨+La+evolución+definitiva;🎀+Bot+multifuncional+avanzado!" height="90px"></a>
+<a href="https://github.com/Pedro18ff"><img src="https://readme-typing-svg.herokuapp.com?font=Boldonse&size=15&duration=3000&pause=1000&color=FF69B4&center=true&width=435&lines=Bienvenido+al+repositorio+actualizado;🌸+Dey+IA+V3;✨+La+evolución+definitiva;🎀+Bot+multifuncional+avanzado!" height="90px"></a>
 </p>
 
 <!-- Banner Animado -->
