@@ -9,7 +9,7 @@
 </p>
 
 <!-- Banner Animado -->
-<img src="https://cdn.russellxz.click/b9042836.jpg" width="700" alt="Itsuki-NakanoV3"/>
+<img src="https://cdn.russellxz.click/b9042836.jpg" width="700" alt="Dey"/>
 
 <br>
 

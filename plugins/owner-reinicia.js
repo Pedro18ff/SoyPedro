@@ -99,7 +99,7 @@ let handler = async (m, { conn, usedPrefix, command, isOwner, isROwner }) => {
 > 🔰 Estado: ✅ Conectado al servidor
 > 💾 Servicios: 🟢 Todos operativos
 
-> 🎅 *¡Itsuki V3 está listo para ayudarte de nuevo!*
+> 🎅 *¡D E Y está listo para ayudarte de nuevo!*
 > 🎄 *¡Feliz Navidad!* 🎁`.slice(0, 3500),
       m
     )
