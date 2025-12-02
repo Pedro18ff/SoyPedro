@@ -44,11 +44,11 @@ global.icono = global.iconos[Math.floor(Math.random() * global.iconos.length)]
 global.wm = '© PEDRO'
 global.wm3 = '⫹⫺ 𝙈𝙪𝙡𝙩𝙞-𝘿𝙚𝙫𝙞𝙘𝙚 💻'
 global.author = '👑 ᗰᗩᗪᗴ ᗷY PEDRO 🧃'
-global.dev = '© 𝙾𝚆𝙽𝙴𝚁-𝙻𝙴𝙾 𝙳𝙴𝚅 👑'
+global.dev = '© Creaador SoyPedro👑'
 global.textbot = 'DEY BOT IA DE SOYPEDRO'
-global.etiqueta = '@Leo Xzsy'
+global.etiqueta = '@Pedro'
 global.gt = '© 𝐂𝐫𝐞𝐚𝐝𝐨 𝐏𝐨𝐫 SOYPEDRO 𝐓𝐡𝐞 𝐁𝐞𝐬𝐭 𝐁𝐨𝐭𝐬 𝐎𝐟 𝐖𝐡𝐚𝐭𝐬𝐚𝐩𝐩 🤖👑'
-global.me = '🌨️ DEY 𝙽𝙰𝙺𝙰𝙽𝙾 𝙼𝙴𝚆 𝚄𝙿𝙳𝙰𝚃𝙴 ☃️'
+global.me = '🌨️ DEY 𝙼𝙴𝚆 𝚄𝙿𝙳𝙰𝚃𝙴 ☃️'
 
 // Contact message
 global.fkontak = { 
