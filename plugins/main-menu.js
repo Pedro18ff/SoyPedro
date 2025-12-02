@@ -21,18 +21,18 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
 
  ִ \`I N F O - B O T\` ! ୧ ֹ 
    
-> ੭੭﹙❐﹚ \`bot :\` *SOY LA BOT DEY DE PEDRO*
+> ੭੭﹙❐﹚ \`bot :\` *soy ItsukiV3*
 > ੭੭﹙❐﹚ \`Ping :\` *${speed} ms*
 > ੭੭﹙❐﹚ \`Uptime :\` *${await getUptime()}*
 > ੭੭﹙❐﹚ \`RAM :\` *${(process.memoryUsage().rss / 1024 / 1024).toFixed(2)}* MB
 > ੭੭﹙❐﹚ \`Plugins :\` *${help.length}*
-> ੭੭﹙❐﹚ \`Owner :\` *@SOYPEDRO*
+> ੭੭﹙❐﹚ \`Owner :\` *@leoDev*
 > ੭੭﹙❐﹚ \`Mode :\` *${global.opts['self'] ? 'Private' : 'Public'}*
 
 `
 
     const categories = {
-      'DEY': ['main', 'info'],
+      'NAKANO-INFO': ['main', 'info'],
       'INTELIGENCIA': ['bots', 'ia'],
       'JUEGOS': ['game', 'gacha'],
       'ECONOMÍA': ['economy', 'rpgnk'],
@@ -59,7 +59,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
       }
     }
 
-    menuText += `> *‐ ダ mᥲძᥱ ᑲᥡ PEDRO*`
+    menuText += `> *‐ ダ mᥲძᥱ ᑲᥡ ʟᴇᴏ*`
 
     await conn.sendMessage(m.chat, { react: { text: '❄️', key: m.key } })
 
@@ -70,14 +70,14 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
         name: 'cta_url',
         buttonParamsJson: JSON.stringify({ 
           display_text: '☃️ ᴄᴀɴᴀʟ ᴏғɪᴄɪᴀʟ', 
-          url: 'https://whatsapp.com/channel/0029Vb6pxnHJf05UZAFuVX2P' 
+          url: 'https://whatsapp.com/channel/0029VbBvZH5LNSa4ovSSbQ2N' 
         })
       },
       {
         name: 'cta_url',
         buttonParamsJson: JSON.stringify({ 
-          display_text: '💻 PROGRAMADOR OFICIAL', 
-          url: '994884471' 
+          display_text: '💻 ʜᴏsᴛɪɴɢ-ᴏғɪᴄɪᴀʟ', 
+          url: 'https://dash.quintillisas.com' 
         })
       }
     ]
@@ -113,7 +113,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
   } catch (e) {
     console.error('❌ Error en el menú:', e)
     await conn.sendMessage(m.chat, {
-      text: `🍙 *DEY MENÚ BÁSICO*\n\n• ${_p}menu - Menú principal\n• ${_p}ping - Estado del bot\n• ${_p}prefijos - Ver prefijos\n\n⚠️ *Error:* ${e.message}`
+      text: `🍙 *ITSUNI MENÚ BÁSICO*\n\n• ${_p}menu - Menú principal\n• ${_p}ping - Estado del bot\n• ${_p}prefijos - Ver prefijos\n\n⚠️ *Error:* ${e.message}`
     }, { quoted: m })
   }
 }

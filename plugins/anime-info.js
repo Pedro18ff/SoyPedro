@@ -22,7 +22,7 @@ let handler = async (m, { conn, usedPrefix, command, text }) => {
 │ ${usedPrefix}premium semana  
 │ ${usedPrefix}premium mes
 
-💫 *¡Desbloquea búsquedas ilimitadas con DeyBot!* (◕‿◕✿)`, 
+💫 *¡Desbloquea búsquedas ilimitadas con Itsuki!* (◕‿◕✿)`, 
     m, ctxErr);
   }
 
@@ -38,7 +38,7 @@ let handler = async (m, { conn, usedPrefix, command, text }) => {
 │ ${usedPrefix + command} One Piece
 ╰━━━━━━━━━━━━━━━━━━━━━━⬣
 
-💮 *Dey espera tu búsqueda premium...* 📚`, 
+💮 *Itsuki espera tu búsqueda premium...* 📚`, 
     m, ctxWarn)
   }
 
@@ -85,7 +85,7 @@ let handler = async (m, { conn, usedPrefix, command, text }) => {
 │ 📚 No se encontró en base de datos
 ╰━━━━━━━━━━━━━━━━━━━━━━⬣
 
-💮 *Dey sugiere verificar el nombre...* 📖`, 
+💮 *Itsuki sugiere verificar el nombre...* 📖`, 
       m, ctxErr)
     }
 
@@ -123,7 +123,7 @@ let handler = async (m, { conn, usedPrefix, command, text }) => {
 ${synopsis ? synopsis.substring(0, 400) + (synopsis.length > 400 ? '...' : '') : 'Sinopsis no disponible'}
 
 💫 *Beneficio exclusivo para miembros premium*
-🎀 *Dey te presenta información detallada del manga* 🌟`
+🎀 *Itsuki te presenta información detallada del manga* 🌟`
 
     // Enviar imagen con información premium
     await conn.sendFile(m.chat, manga.images.jpg.image_url, 'premium_manga.jpg', mangainfo, m)
@@ -141,7 +141,7 @@ ${synopsis ? synopsis.substring(0, 400) + (synopsis.length > 400 ? '...' : '') :
 │ 📝 Detalles: ${error.message}
 ╰━━━━━━━━━━━━━━━━━━━━━━⬣
 
-💮 *Dey no pudo completar la búsqueda...* (´；ω；\`)`, 
+💮 *Itsuki no pudo completar la búsqueda...* (´；ω；\`)`, 
     m, ctxErr)
   }
 }

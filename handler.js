@@ -121,12 +121,13 @@ try {
 const user = global.db.data.users[m.sender]
 if (typeof user !== "object") global.db.data.users[m.sender] = {}
 if (user) {
-// SISTEMA DE REGISTRO AUTOMÁTICO
-if (!("registered" in user)) user.registered = true
-if (!("name" in user) || !user.name) user.name = m.pushName || m.name || "Usuario"
-user.age = 0
-user.regTime = Date.now()
-
+// SISTEMA DE REGISTRO - INICIO
+if (!("registered" in user)) user.registered = false
+if (!user.registered) {
+if (!("name" in user)) user.name = m.name
+if (!isNumber(user.age)) user.age = -1
+if (!isNumber(user.regTime)) user.regTime = -1
+}
 // SISTEMA DE REGISTRO - FIN
 
 if (!("exp" in user) || !isNumber(user.exp)) user.exp = 0
@@ -395,8 +396,10 @@ continue
 }
 
 // SISTEMA DE REGISTRO - VALIDACIÓN
-// Registro desactivado — todos los usuarios pueden usar comandos
-
+if (plugin.register == true && user.registered == false) {
+fail("unreg", m, this)
+continue
+}
 // SISTEMA DE REGISTRO - FIN
 
 if (plugin.group && !m.isGroup) {

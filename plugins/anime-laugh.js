@@ -14,7 +14,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 
     let str = m.mentionedJid.length > 0 || m.quoted 
         ? `💙 \`${name2}\` se está riendo con \`${name || who}\` en el concierto virtual 😄` 
-        : `💙 \`${name2}\` se ríe felizmente en el mundo virtual de Dey 😄`
+        : `💙 \`${name2}\` se ríe felizmente en el mundo virtual de Miku 😄`
     
     if (m.isGroup) {
         let pp = 'https://media.tenor.com/9s-im1zHOqsAAAPo/obito-obito-uchiha.mp4'

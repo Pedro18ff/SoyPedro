@@ -1,5 +1,5 @@
 {
-  "name": "Dey",
+  "name": "Itsuki-Nakano",
   "version": "6.4.1",
   "type": "module",
   "main": "index.js",
@@ -11,14 +11,14 @@
     "node": ">=18.18"
   },
   "dependencies": {
-    "@whiskeysockets/baileys": "github:SoyPedro/bails",
+    "@whiskeysockets/baileys": "github:Kone457/bails",
     "awesome-phonenumber": "^5.5.1",
     "axios-cookiejar-support": "^5.0.3",
     "boxen": "^7.1.1",
     "chalk": "^5.3.0",
     "cfonts": "^3.3.0",
     "file-type": "^18.7.0",
-    "aptoide-scraper": "github:SoyPedro/dv-aptoide-scraper",
+    "aptoide-scraper": "github:DIEGO-OFC/dv-aptoide-scraper",
     "gradient-string": "^2.0.2",
     "google-libphonenumber": "^3.2.41",
     "lodash": "^4.17.21",

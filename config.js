@@ -11,22 +11,22 @@ import { dirname } from 'path'
 global.__dirname = (url) => dirname(fileURLToPath(url));
 
 // Configuraciones principales
-global.roowner = ['51994884471']
+global.roowner = ['573187418668']
 global.owner = [
-   ['51994884471', '۪〬.࠭⤿ 👑 ⋅ SoyPedro', true],
-   ['51932354601', 'Magno  🦇🩸', true],
-   ['51916388949', 'SoyDinoV', true],
-// son pndjos todos menos Pedro por poco también lo es
-   ['51994884471', 'YO SOY YO', true],
-   ['51932354601', '𝐒𝐨𝐲𝐌𝐚gno <𝟑', true],
-   ['51916388949', 'SoyDinoV 🐢', true],
-   ['51942981586', 'VlADI', true]
-   ['51934210230', '𝐒𝐨𝐩𝐨𝐫𝐭𝐞 𝐱 SoyPedro 👨🏻‍💻👑', true]
+   ['595972314588', '۪〬.࠭⤿ 👑 ⋅ 𝘿𝙖𝙫𝙞𝙙   𝙭𝙯𝙨𝙮', true],
+   ['573187418668', '𝙇𝙚𝙤   𝙭𝙯𝙨𝙮  🦇🩸', true],
+   ['5216641784469', 'BrayanOFC', true],
+// son pndjos todos menos David y Leo por poco también son
+   ['573133374132', 'YO SOY YO', true],
+   ['51921826291', '𝐒𝐨𝐲𝐌𝐚𝐲𝐜𝐨𝐥 <𝟑', true],
+   ['50493732693', 'Ado 🐢', true],
+   ['5216671548329', 'Legna', true]
+   ['50496228919', '𝐒𝐨𝐩𝐨𝐫𝐭𝐞 𝐱 𝐒𝐭𝐚𝐟𝐟 𝐈𝐭𝐬𝐮𝐤𝐢 👨🏻‍💻👑', true]
 ];
 
-global.mods = ['51994884471', '51994884471', '51994884471']
-global.suittag = ['51932354601', '51932354601', '51932354601']
-global.prems = ['51942981586', '51942981586', '51942981586', '51916388949']
+global.mods = ['573187418668', '595972314588', '51921826291']
+global.suittag = ['573187418668', '595972314588', '51921826291']
+global.prems = ['573187418668', '595972314588', '51921826291', '5216671548329']
 
 // Información del bot 
 global.libreria = 'Baileys'
@@ -34,25 +34,25 @@ global.baileys = 'V 6.7.9'
 global.languaje = 'Español'
 global.vs = '4.3.1'
 global.vsJB = '5.0'
-global.nameqr = 'Deyqr'
-global.namebot = 'Dey-IA'
+global.nameqr = 'Itsukiqr'
+global.namebot = 'Itsuki-IA'
 global.sessions = "Sessions/Principal"
 global.jadi = "Sessions/SubBot"
 global.ItsukiJadibts = true
 global.Choso = true
 global.prefix = ['.', '!', '/' , '#', '%']
-global.apikey = 'DeyIA'
-global.botNumber = '994884471'
+global.apikey = 'ItsukiNakanoIA'
+global.botNumber = '18482389332'
 // Números y settings globales para varios códigos
 global.packname = '𝗟𝗮 𝗠𝗲𝗷𝗼𝗿 𝗕𝗼𝘁 𝗗𝗲 𝗪𝗵𝗮𝘁𝘀𝗮𝗽𝗽 🫰🏻🤖'
-global.botname = '🧋 D E Y - 𝐍 𝐄 𝐖 ❄️'
-global.wm = '© Pedro'
+global.botname = '🧋 𝐈 𝐓 𝐒 𝐔 𝐊 𝐈 - 𝐍 𝐄 𝐖 ❄️'
+global.wm = '© 𝐋𝐞𝐨'
 global.wm3 = '⫹⫺ 𝙈𝙪𝙡𝙩𝙞-𝘿𝙚𝙫𝙞𝙘𝙚 💻'
-global.author = '👑 ᗰᗩᗪᗴ ᗷY PᗴDRO 🧃'
-global.dev = '© 𝙾𝚆𝙽𝙴𝚁-Pedro 𝙳𝙴𝚅 👑'
-global.textbot = 'Dey-PedroBo'
-global.etiqueta = '@Pedro'
-global.gt = '© 𝐂𝐫𝐞𝐚𝐝𝐨 𝐏𝐨𝐫 SoyPedro𝐓𝐡𝐞 𝐁𝐞𝐬𝐭 𝐁𝐨𝐭𝐬 𝐎𝐟 𝐖𝐡𝐚𝐭𝐬𝐚𝐩𝐩 🤖👑'
+global.author = '👑 ᗰᗩᗪᗴ ᗷY ᒪᗴO 🧃'
+global.dev = '© 𝙾𝚆𝙽𝙴𝚁-𝙻𝙴𝙾 𝙳𝙴𝚅 👑'
+global.textbot = 'Itsuki-Nakano|IAV3 Leo'
+global.etiqueta = '@Leo Xzsy'
+global.gt = '© 𝐂𝐫𝐞𝐚𝐝𝐨 𝐏𝐨𝐫 𝐋𝐞𝐨𝐃𝐞𝐯 𝐈𝐭𝐬𝐮𝐤𝐢-𝐂𝐡𝐚𝐧 𝐓𝐡𝐞 𝐁𝐞𝐬𝐭 𝐁𝐨𝐭𝐬 𝐎𝐟 𝐖𝐡𝐚𝐭𝐬𝐚𝐩𝐩 🤖👑'
 global.me = '🌨️ 𝙸𝚃𝚂𝚄𝙺𝙸 𝙽𝙰𝙺𝙰𝙽𝙾 𝙼𝙴𝚆 𝚄𝙿𝙳𝙰𝚃𝙴 ☃️'
 global.listo = '*Aqui tiene*'
 global.moneda = 'Yenes'

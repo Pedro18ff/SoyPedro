@@ -16,7 +16,7 @@ let handler = async (m, { conn, text, isBotAdmin, isAdmin }) => {
 • !add (respondiendo a un mensaje)
 
 💡 **Ejemplos:**
-• !add 51994884471
+• !add 51987654321
 • !add @usuario
 • !add 51999999999,51888888888
 
